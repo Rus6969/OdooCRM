@@ -1,0 +1,271 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4416671743,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-21T00:40:38.967Z",
+        "before": [
+          {
+            "result": {
+              "duration": 944245,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Login as a sales manager",
+        "description": "",
+        "id": "user-should-be-able-to-login;login-as-a-sales-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 90012916,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2062432102,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sales manager enters login credentials",
+            "match": {
+              "location": "LoginStepDefs.sales_manager_enters_login_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3018675846,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user should be logged in",
+            "match": {
+              "location": "LoginStepDefs.the_user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2919102965,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-21T00:40:48.609Z",
+        "before": [
+          {
+            "result": {
+              "duration": 131633,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login as an expense manager",
+        "description": "",
+        "id": "user-should-be-able-to-login;login-as-an-expense-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 95975853,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2033687517,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "expense manager enters login credentials",
+            "match": {
+              "location": "LoginStepDefs.expense_manager_enters_login_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3011301321,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user should be logged in",
+            "match": {
+              "location": "LoginStepDefs.the_user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2821831049,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-21T00:40:56.675Z",
+        "before": [
+          {
+            "result": {
+              "duration": 125370,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login as an events crm manager",
+        "description": "",
+        "id": "user-should-be-able-to-login;login-as-an-events-crm-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 95832011,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2193400578,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "events crm manager enters login credentials",
+            "match": {
+              "location": "LoginStepDefs.events_crm_manager_enters_login_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3011356357,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user should be logged in",
+            "match": {
+              "location": "LoginStepDefs.the_user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to login",
+    "description": "",
+    "id": "user-should-be-able-to-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
