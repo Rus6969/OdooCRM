@@ -18,7 +18,11 @@ public abstract class BasePage {
     /**
      * The following FindBys need be changed accordingly.
      */
-    @FindBy()
+    @FindBy(xpath = "//*[@href=\"/web#menu_id=194&action=220\"]/span")
+    public WebElement notesButton;
+
+
+    @FindBy(xpath = "//li[@style='display: block;']")
     public List<WebElement> menuOptions;
 
     @FindBy()
