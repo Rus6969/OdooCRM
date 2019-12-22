@@ -1,18 +1,23 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/Notes.feature");
 formatter.feature({
-  "name": "User should be able to login",
+  "name": "Navigate to Notes",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@login"
+      "name": "@notes"
     }
   ]
 });
-formatter.background({
-  "name": "",
+formatter.scenario({
+  "name": "Login as a sales manager and navigate to Note module",
   "description": "",
-  "keyword": "Background"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@notes"
+    }
+  ]
 });
 formatter.before({
   "status": "passed"
@@ -26,16 +31,6 @@ formatter.match({
 });
 formatter.result({
   "status": "passed"
-});
-formatter.scenario({
-  "name": "Login as a sales manager",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@login"
-    }
-  ]
 });
 formatter.step({
   "name": "sales manager enters login credentials",
@@ -57,104 +52,22 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
 formatter.step({
-  "name": "the user is on login page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "LoginStepDefs.the_user_is_on_login_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Login as an expense manager",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@login"
-    }
-  ]
-});
-formatter.step({
-  "name": "expense manager enters login credentials",
+  "name": "the user clicks on Note module",
   "keyword": "When "
 });
 formatter.match({
-  "location": "LoginStepDefs.expense_manager_enters_login_credentials()"
+  "location": "NotesStepDefs.the_user_clicks_on_Note_module()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user should be logged in",
+  "name": "the user should be navigated to Note",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginStepDefs.the_user_should_be_logged_in()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user is on login page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "LoginStepDefs.the_user_is_on_login_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Login as an events crm manager",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@login"
-    }
-  ]
-});
-formatter.step({
-  "name": "events crm manager enters login credentials",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "LoginStepDefs.events_crm_manager_enters_login_credentials()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user should be logged in",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginStepDefs.the_user_should_be_logged_in()"
+  "location": "NotesStepDefs.the_user_should_be_navigated_to_Note()"
 });
 formatter.result({
   "status": "passed"
