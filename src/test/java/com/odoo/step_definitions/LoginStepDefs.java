@@ -47,4 +47,4 @@ public class LoginStepDefs {
         LoginPage loginSales = new LoginPage();
         loginSales.login(username, password);
     }
-}
+    }
