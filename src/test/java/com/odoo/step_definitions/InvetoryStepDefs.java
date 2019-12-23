@@ -57,6 +57,7 @@ public class InvetoryStepDefs {
        invetoryPage.saveBTN.click();
     }
 
+
     @Then("expected name must be the same with actual product name")
     public void expected_name_must_be_the_same_with_actual_product_name() {
         InvetoryPage invetoryPage= new InvetoryPage();
