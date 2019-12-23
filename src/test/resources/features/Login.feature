@@ -1,10 +1,10 @@
-@login
+
 Feature: User should be able to login
 
   Background:
     Given the user is on login page
 
-
+  @login
   Scenario: Login as a sales manager
     When sales manager enters login credentials
     Then the user should be logged in
