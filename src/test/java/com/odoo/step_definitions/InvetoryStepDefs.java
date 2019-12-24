@@ -23,6 +23,7 @@ public class InvetoryStepDefs {
 //         BrowserUtils.waitFor(3);
 //        Driver.get().findElement(By.id("oe_applications")).click();
 //        Driver.get().findElement(By.xpath("//ul//li//a[@class='oe_menu_leaf']")).click();
+        //khkjhvkjgviugviugviuviuvjgviuv
 
 
     }
